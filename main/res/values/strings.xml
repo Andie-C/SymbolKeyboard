@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">InterAACt</string>
+
+    <!--strings for the text prompt after photo selection-->
+    <string name="dialog_title">Key Label</string>
+    <string name="dialog_description">Please enter the text output for your image</string>
+    <string name="dialog_hint">Image Meaning</string>
+    <string name="dialog_empty">Key requires a meaning. Please enter.</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!--strings for creating keyboard-->
+    <string name="title_keyboard">Name Keyboard</string>
+    <string name="save_keyboard">Save Keyboard</string>
+    <string name="name_keyboard">Please enter the name of your keyboard</string>
+    <string name="hint_keyboard">Keyboard Name</string>
+    <string name="empty_keyboard">Keyboard requires a name. Please enter.</string>
+    <string name="error_keyboard">That keyboard name already exists. Please enter another name.</string>
+
+    <!--strings for the image prompt before photo selection-->
+    <string name="image_prompt_title">Set Key Image</string>
+    <string name="image_prompt_description">Use image from:</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <!--strings for the help prompt on the home screen-->
+    <string name="help_prompt_title">Welcome to InterAACt</string>
+    <string name="help_prompt_text">
+        <b>Hello!</b>\n
+        Welcome to InterACCt, the ACC app that allows you to create your own visual keyboards.\n\n
+
+        <b>To Create a New Keyboard:</b>\n
+    1. Press the + button to start creating a new keyboard.\n
+    2. Click on a blank key to customise it using the camera or your own saved photos.\n
+    3. Type a meaning for your image and press save to finish creating the key.\n
+    4. When you have customised the keys that you require, press Save Keyboard and name it.\n\n
+
+        <b>To use a Saved Keyboard:</b>\n
+    1. Press the keyboard name that you wish to use.\n
+    2. Push the keys to express their meaning.\n
+    3. The associated meaning will appear above the keyboard.\n
+    4. Press the refresh button to clear the text.\n\n
+
+        <b>To Log In (suggested for teacher use)</b>\n
+    1.Press on the login icon at the top of the screen. \n
+    2.Follow the steps on the screen to Register or Login\n\n
+
+        <b>To Delete a Keyboard:</b>\n
+    1. To delete a keyboard, you will have to log in.\n
+    2. Once logged in, press the red delete button.\n
+    3. When presented with the keyboard list, press the keyboard you wish to delete.\n
+    4. Confirm you wish to delete the keyboard or press cancel to change your mind.\n\n
+
+        <b>Hints and Tips</b>\n
+    When using the camera to customise a key, it is recommended to hold the device landscape to ensure the largest image possible.
+</string>
+    <string name="close">OK</string>
+
+    <!--strings for deleting keyboard-->
+    <string name="delete_title">Keyboard Delete</string>
+    <string name="delete_description">Please select the keyboard you wish to delete.</string>
+
+    <string name="confirmation_title">Confirm Keyboard Delete</string>
+    <string name="confirmation_description">Are you sure you want to delete the following keyboard?</string>
+    <string name="delete">Delete</string>
+
+    <string name="delete_success">has been successfully deleted.</string>
+    <string name="delete_error">There was an error in deleting your keyboard. Please try again.</string>
+
+    <string name="register_title">Register</string>
+    <string name="register_description">Welcome! Please register to access teacher content.</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_passeord">Confirm Password</string>
+    <string name="register">Register</string>
+
+    <string name="login_title">User Login</string>
+    <string name="login_description">Please login to access teacher content.</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="logged_in">Logged In</string>
+
+    <string name="empty_username_error">Please enter a username.</string>
+    <string name="empty_email_error">Please enter your email address.</string>
+    <string name="empty_password_error">Please enter a password.</string>
+    <string name="empty_confirm_password_error">Please confirm the password.</string>
+    <string name="wrong_username_error">Username is incorrect. Please try again.</string>
+    <string name="wrong_password_error">Password is incorrect. Please try again.</string>
+    <string name="password_mismatch_error">Passwords do not match. Please re-enter.</string>
+
+</resources>
